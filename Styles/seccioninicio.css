@@ -1,0 +1,76 @@
+.seccioninicio {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5%; }
+  .seccioninicio h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2.25rem;
+    max-width: 225px;
+    margin-bottom: 1rem; }
+    .seccioninicio h1 .tachado {
+      text-decoration: line-through; }
+  .seccioninicio p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.88rem;
+    margin-bottom: 2.25rem; }
+  .seccioninicio .parrafodesk {
+    display: none; }
+  .seccioninicio .boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "IBM Plex Mono-Medium";
+    font-size: 1rem;
+    font-weight: bold;
+    width: 90vw;
+    height: 3rem;
+    background-color: #00f3bb;
+    margin-bottom: 1.5rem; }
+
+@media only screen and (min-width: 768px) {
+  .seccioninicio {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%; }
+    .seccioninicio h1 {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 4rem;
+      max-width: 225px;
+      margin-bottom: 1rem;
+      display: inline-block;
+      max-width: 46.25rem;
+      margin-left: 8.9%;
+      margin-top: 7.5rem; }
+      .seccioninicio h1 .tachado {
+        text-decoration: line-through; }
+      .seccioninicio h1 .punto {
+        color: #0000EC; }
+    .seccioninicio p {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 1rem;
+      margin-left: 8.9%;
+      margin-bottom: 2.25rem;
+      max-width: 39.25rem; }
+    .seccioninicio .parrafodesk {
+      display: none; }
+    .seccioninicio .boton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "IBM Plex Mono-Medium";
+      font-size: 1rem;
+      font-weight: bold;
+      width: 90vw;
+      height: 3rem;
+      background-color: #00f3bb;
+      margin-left: 8.9%;
+      max-width: 14.13rem; }
+    .seccioninicio .boton:hover {
+      color: white;
+      background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); } }
+
+/*# sourceMappingURL=seccioninicio.css.map */
